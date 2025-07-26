@@ -16,12 +16,20 @@ International License. See [https://creativecommons.org/licenses/by-sa/4.0/](htt
     Apple1 expansion card with these features: 
     - replaces or extends the onboard RAM to 4x 32KB bankswitched sram
     - up to 2x 32KB ROM (replaces optional the onboard PROMs)
+    - * AT29c256 for 32KB or W27c512 for 2x 32KB switchable
     - VIA 65c22 with 8 bit Userport
     - Commodore-compatible IEC interface (JD)
     - onboard SD2IEC
     - IEC interpreter in C400-CFFF
     - compatible with ACI (load from tape -> save to disk and vice versa)
     - compatible with Wendell Sander's Expansion board (unbufferd mode!)
+
+**ROMs**
+
+    iec.bin         only the IEC interpreter at C400-CFFF
+    rom.bin         32K image with IEC @C400, Basic @E000, 16xWozmon @F000
+    rom_nojd.bin    - same but without floppy speeder routines
+    rom64.bin       64K 2x rom.bin but upper half with Krusader
 
 **[Schematic](https://github.com/vossi1/Apple1-IECmem/blob/master/schematics_v10.png)**
 
@@ -56,5 +64,7 @@ International License. See [https://creativecommons.org/licenses/by-sa/4.0/](htt
     I accidentally used 0603 footprints for C1-C4, but 0805 can also be used.
     JD currently not running reliable with external drives.
     An IEC connector hits the power connector when the card is plugged directly into the Board.
+    The toggleswitch is optional to switch between w27c512 lower/upper half
+    It's also possible to leave the SD2IEC parts away and use an external device only
 
 
