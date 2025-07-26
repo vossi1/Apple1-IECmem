@@ -1,4 +1,4 @@
-# A1-IECMEM Apple IEC/RAM/ROM/IO-card
+# Apple1-IECmem Apple IEC/RAM/ROM/IO-card
 
 **Copyright (c) 2025 Vossi - v 1.0**
 **www.mos6509.com**
@@ -9,7 +9,7 @@ International License. See [https://creativecommons.org/licenses/by-sa/4.0/](htt
 
 **screenshots:**
 
-![screen1](https://github.com/vossi1/a1-iecmem/blob/master/photos/screen1.jpg) ![screen2](https://github.com/vossi1/a1-iecmem/blob/master/photos/screen2.jpg) ![screen3](https://github.com/vossi1/a1-iecmem/blob/master/photos/screen3.jpg)
+![screen1](https://github.com/vossi1/Apple1-IECmem/blob/master/photos/screen1.jpg) ![screen2](https://github.com/vossi1/Apple1-IECmem/blob/master/photos/screen2.jpg) ![screen3](https://github.com/vossi1/Apple1-IECmem/blob/master/photos/screen3.jpg)
 
 **description:**
 
@@ -23,13 +23,13 @@ International License. See [https://creativecommons.org/licenses/by-sa/4.0/](htt
     - compatible with ACI (load from tape -> save to disk and vice versa)
     - compatible with Wendell Sander's Expansion board (unbufferd mode!)
 
-**[Schematic](https://github.com/vossi1/a1-iecmem/blob/master/schematics_v10.png)**
+**[Schematic](https://github.com/vossi1/Apple1-IECmem/blob/master/schematics_v10.png)**
 
-**[Parts](https://github.com/vossi1/a1-iecmem/blob/master/parts_v10.txt)**
+**[Parts](https://github.com/vossi1/Apple1-IECmem/blob/master/parts_v10.txt)**
 
-![front](https://github.com/vossi1/a1-iecmem/blob/master/photos/front.jpg)
+![front](https://github.com/vossi1/Apple1-IECmem/blob/master/photos/front.jpg)
 
-![back](https://github.com/vossi1/a1-iecmem/blob/master/photos/back.jpg)
+![back](https://github.com/vossi1/Apple1-IECmem/blob/master/photos/back.jpg)
 
 **commands:**
 
