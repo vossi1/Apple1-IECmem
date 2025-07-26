@@ -1,0 +1,36 @@
+GAL16V8		; used GAL - Apple 1 IEC-Memorycard
+A1IECMEM	; 64bit Signature max. 8 char. Text
+
+; v1.0 - Vossi 17.7.2025 
+; Pins 12,19 must be output in mode2
+
+; Pin definition
+;1]   [2]   [3]   [4]   [5]   [6]   [7]   [8]   [9]   [10]
+DIP7  DIP6  DIP5  DIP4  DIP3  DIP2  DIP1  A15   A14   GND
+
+;11]  [12]  [13]  [14]  [15]  [16]  [17]  [18]  [19]  [20]
+A13   VIA   A12   A11   A10   PHI2  RW    RAM   ROM   VCC
+
+; Equations
+/RAM	=  DIP1 * PHI2 * /A15  * /A14 *  A13	; RAM 2000-3FFF
+	+  DIP1 * PHI2 * /A15  *  A14		; RAM 4000-7FFF
+	+ /DIP1 * PHI2 * /A15			; RAM 0000-7FFF
+
+/ROM	= /DIP2 * PHI2 * RW *  A15 * /A14 * /A13	; ROM 8000+9FFF
+	+ /DIP3 * PHI2 * RW *  A15 * /A14 *  A13 * /A12	; ROM Axxx
+	+ /DIP4 * PHI2 * RW *  A15 * /A14 *  A13 *  A12	; ROM Bxxx
+	+ /DIP5 * PHI2 * RW *  A15 *  A14 * /A13 * /A12	* /A11 * A10	; ROM C400-C7FF
+	+ /DIP5 * PHI2 * RW *  A15 *  A14 * /A13 * /A12	*  A11		; ROM C800-CFFF
+	+ /DIP6 * PHI2 * RW *  A15 *  A14 *  A13 * /A12	; ROM Exxx
+	+ /DIP7 * PHI2 * RW *  A15 *  A14 *  A13 *  A12	; ROM Fxxx
+
+VIA	=  A15  *  A14  * /A13 *  A12		; VIA Dxxx
+;VIA	=  A15  * /A14  *  A13 *  A12		; VIA Bxxx
+
+DESCRIPTION
+
+/    NOT or active-low
+*    AND
++    OR
+=    Combinational output
+:=   Registered output

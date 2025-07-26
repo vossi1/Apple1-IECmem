@@ -1,0 +1,77 @@
+Partlist
+
+Exported from a1-iecmem.sch at 17.07.25 13:41
+
+EAGLE Version 9.6.2 Copyright (c) 1988-2020 Autodesk, Inc.
+
+Assembly variant: 
+
+Part     Value          Device                  Package         Library  Sheet
+
+C1       100n           C_CERAMIC_0603          0603            _smd     1
+C2       100n           C_CERAMIC_0603          0603            _smd     1
+C3       100n           C_CERAMIC_0603          0603            _smd     1
+C4       100n           C_CERAMIC_0603          0603            _smd     1
+C5       100n           C_CERAMIC_0805          0805            _smd     1
+C6       100n           C_CERAMIC_0805          0805            _smd     1
+C7       4,7u           C_CERAMIC_0805          0805            _smd     1
+C8       10u            C_CERAMIC_0805          0805            _smd     1
+C9       47u/6.3V       C_CERAMIC_0805          0805            _smd     1
+C10      56p            C_CERAMIC_0805          0805            _smd     1
+C11      56p            C_CERAMIC_0805          0805            _smd     1
+C12      150p           C_CERAMIC_0805          0805            _smd     1
+D1       BAT42WS        BAT42WS                 SOD323          _smd     1
+D2       1N4148         1N4148_MM               MINIMELF_DIODE  _smd     1
+D3       1N4148         1N4148_MM               MINIMELF_DIODE  _smd     1
+D4       1N4148         1N4148_MM               MINIMELF_DIODE  _smd     1
+D5       1N4148         1N4148_MM               MINIMELF_DIODE  _smd     1
+D6       1N4148         1N4148_MM               MINIMELF_DIODE  _smd     1
+D7       1N4148         1N4148_MM               MINIMELF_DIODE  _smd     1
+D8       1N4148         1N4148_MM               MINIMELF_DIODE  _smd     1
+FB1      FERRITE        FERRITE_1206            MINIMELF_1206   _smd     1
+FB2      FERRITE        FERRITE_1206            MINIMELF_1206   _smd     1
+FB3      FERRITE        FERRITE_1206            MINIMELF_1206   _smd     1
+IC1      GAL16V8        GAL16V8_PLCC            PLCC20          _smd     1
+IC2      27/29C256/512  27C256/512_AMP          PLCC32_AMP      _smd     1
+IC3      IS61C1024      IS61C1024_SOJ300        SOJ32-300       _smd     1
+IC4      65C22J1        65C22_PLCC              PLCC44          _smd     1
+IC5      74LS06D        74LS06D                 SO14-150        _smd     1
+IC6      LM1117         LM1117                  SOT223          _smd     1
+IC7      ATMEGA644P     ATMEGA644_LC256_TQFP    TQFP44          _smd     1
+J1       EDGE44-APPLE1  EDGE44-APPLE1           EDGE44-APPLE1   _smd     1
+J2       Userport       PINHEAD2X7              _PINHEAD2X7     _smd     1
+J4       SD_10067847    SD_10067847             SD_10067847     _smd     1
+J5       ISP            MICROMATCH-6            MICROMATCH_6    _smd     1
+J12      IEC            DIN6_IEC                _DIN6           _smd     1
+JP1      VIA NMI/IRQ    PAD-1-2-3               PAD-1-2-3       _smd     1
+LED1     Drive          LED_0805                LED_0805        _smd     1
+LED2     Rec/Err        LED_0805                LED_0805        _smd     1
+PA2      PA2            PAD_2X1                 PAD_2X1         _smd     1
+Q1       8MHz           CRYSTAL_SMD             HC49UP          _smd     1
+R1       330            RESISTOR_0805           0805            _smd     1
+R2       330            RESISTOR_0805           0805            _smd     1
+R3       10k            RESISTOR_0805           0805            _smd     1
+R4       10k            RESISTOR_0805           0805            _smd     1
+R5       22             RESISTOR_0805           0805            _smd     1
+R6       22k            RESISTOR_0805           0805            _smd     1
+R7       10k            RESISTOR_0805           0805            _smd     1
+R8       10k            RESISTOR_0805           0805            _smd     1
+R9       22             RESISTOR_0805           0805            _smd     1
+R10      22k            RESISTOR_0805           0805            _smd     1
+R11      10k            RESISTOR_0805           0805            _smd     1
+R12      10k            RESISTOR_0805           0805            _smd     1
+R13      22             RESISTOR_0805           0805            _smd     1
+R14      22k            RESISTOR_0805           0805            _smd     1
+R15      10k            RESISTOR_0805           0805            _smd     1
+R16      3,3k           RESISTOR_0805           0805            _smd     1
+R17      3,3k           RESISTOR_0805           0805            _smd     1
+R18      1k             RESISTOR_0805           0805            _smd     1
+R19      1k             RESISTOR_0805           0805            _smd     1
+R20      1k             RESISTOR_0805           0805            _smd     1
+RN1      10k            RN8-9                   _RN-9           _smd     1
+S1       DIP08          DIP08                   _DIP08          _smd     1
+S2       SD-Reset       SWITCH_TACTILE_B3F_31XX _OMRON_B3F-31XX _smd     1
+S3       512 Lo/Hi      TS-6                    _TS-6           _smd     1
+T1       IRLML2402      IRLML2402               SOT23_GSD       _smd     1
+T2       IRLML2402      IRLML2402               SOT23_GSD       _smd     1
+T3       IRLML2402      IRLML2402               SOT23_GSD       _smd     1
