@@ -55,7 +55,7 @@ International License. See [https://creativecommons.org/licenses/by-sa/4.0/](htt
     D                   prints the directory
     DTEST*              prints all files beginning with TEST
     @                   prints the device status (device selected with U#)
-    @S:TEST             sends disk kommand to device selected with U#
+    @S:TEST             sends disk command to device selected with U#
 
     Commands can be interrupted with ESC
     After resetting, the default device and the selected RAM bank remain unchanged!
