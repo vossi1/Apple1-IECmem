@@ -14,7 +14,7 @@ International License. See [https://creativecommons.org/licenses/by-sa/4.0/](htt
 **description:**
 
     Apple1 expansion card with these features:
-    
+
     - replaces or extends the onboard RAM to 4x 32KB bankswitched sram
     - up to 2x 32KB ROM (replaces optional the onboard PROMs)
     - * AT29c256 for 32KB or W27c512 for 2x 32KB switchable
@@ -65,7 +65,6 @@ International License. See [https://creativecommons.org/licenses/by-sa/4.0/](htt
     I accidentally used 0603 footprints for C1-C4, but 0805 can also be used.
     JD currently not running reliable with external drives.
     An IEC connector hits the power connector when the card is plugged directly into the Board.
-    The toggleswitch is optional to switch between w27c512 lower/upper half
-    It's also possible to leave the SD2IEC parts away and use an external device only
-
-
+    The toggleswitch is optional to switch between w27c512 lower/upper half.
+    It's also possible to leave the SD2IEC parts away and use an external device only.
+    The Userport connector is optional, but it doesn't prevent the use of a PLCC extractor.
