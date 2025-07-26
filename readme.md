@@ -13,7 +13,8 @@ International License. See [https://creativecommons.org/licenses/by-sa/4.0/](htt
 
 **description:**
 
-    Apple1 expansion card with these features: 
+    Apple1 expansion card with these features:
+    
     - replaces or extends the onboard RAM to 4x 32KB bankswitched sram
     - up to 2x 32KB ROM (replaces optional the onboard PROMs)
     - * AT29c256 for 32KB or W27c512 for 2x 32KB switchable
