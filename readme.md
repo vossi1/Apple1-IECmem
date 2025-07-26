@@ -60,6 +60,18 @@ International License. See [https://creativecommons.org/licenses/by-sa/4.0/](htt
     Commands can be interrupted with ESC
     After resetting, the default device and the selected RAM bank remain unchanged!
 
+**DIP-switches:**
+
+    1   enables 8KB RAM 0000-1FFF (onboard RAM pulled or A1 X+W solderpads open!)
+    2   enables 8000-9FFF in Eprom
+    3   enables A000-AFFF in Eprom
+    4   enables B000-BFFF in Eprom
+    5   enables C400-CFFF in Eprom (Here is my IEC-interpreter)
+    6   enables E000-EFFF in Eprom (Here is the Basic)
+        * you can disable this, connect W to E on A1 board and use RAM here
+    7   enables F000-FFFF in Eprom (Proms A1+A2 pulled or Y solderpad on A1 open!)
+    8   on for 29C256 VPP @+5V, on=A15 HI for W27c512 (parralel to toggle switch) 
+
 **comments:**
 
     I accidentally used 0603 footprints for C1-C4, but 0805 can also be used.
