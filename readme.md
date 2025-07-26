@@ -17,9 +17,10 @@ International License. See [https://creativecommons.org/licenses/by-sa/4.0/](htt
 
     - replaces or extends the onboard RAM to 4x 32KB bankswitched sram
     - up to 2x 32KB ROM (replaces optional the onboard PROMs)
-    - * AT29c256 for 32KB or W27c512 for 2x 32KB switchable
+      * AT29c256 for 32KB or W27c512 for 2x 32KB switchable
     - VIA 65c22 with 8 bit Userport
-    - Commodore-compatible IEC interface (JD) (1541, 1571, 1581, ...)
+    - Commodore compatible (JD) IEC interface for 1541, 1571, 1581, SD2IEC, ...
+      * the first two bytes of the file hold the load address (lo, hi)
     - onboard SD2IEC
     - IEC interpreter in C400-CFFF
     - compatible with ACI (load from tape -> save to disk and vice versa)
