@@ -43,7 +43,7 @@ International License. See [https://creativecommons.org/licenses/by-sa/4.0/](htt
 
 **commands:**
 
-    C400R               start IEC-Interpreter ('#' symbol)
+    C400R               start IEC-Interpreter: prompt '#'
 
     L"FI*               loads file to address in first two file-bytes
     L"FILE",8           loads from device 8
@@ -53,12 +53,16 @@ International License. See [https://creativecommons.org/licenses/by-sa/4.0/](htt
     U8                  changes the default unit
     I9                  changes the device ID of the SD2IEC temporary
     B0                  switches to RAM bank 0 (3 is default at startup)
-    D                   prints the directory
-    DTEST*              prints all files beginning with TEST
+    $                   prints the directory
+    $TEST*              prints all files beginning with TEST
     @                   prints the device status (device selected with U#)
-    @S:TEST             sends disk command to device selected with U#
+    @S:TEST             sends disk kommand to device selected with U#
+    <ESC>               cancels input
+    <RETURN>            returns to Wozmon
 
     Commands can be interrupted with ESC
+    LOAD, VERIFY, SAVE exit to Wozmon, RUN starts your loaded program
+    LOAD or VERIFY set Wozmon point to the startaddress - so 'R' starts your program
     After resetting, the default device and the selected RAM bank remain unchanged!
 
 **DIP-switches:**
